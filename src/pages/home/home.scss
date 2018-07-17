@@ -1,3 +1,66 @@
 page-home {
 
+.style{
+ 
+    position: relative;
+    bottom: -3%;
+
+}
+
+.style2{
+    background-color:rgba(88, 88, 185, 0.671);
+    color: white;
+    padding: 3%;
+    border-radius: 50px;
+    margin-left: 5%;
+    width: 90%;
+    
+
+    
+
+}
+
+
+
+.btn{
+    margin-left: 40%;
+    margin-top: 10%;
+    color: rgb(50, 50, 158);
+    background-color: rgba(255, 255, 255, 0.685);
+
+   
+   
+
+}
+
+
+.img{
+    background-image: url("../../assets/imgs/purple.jpg");
+    background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+  
+
+}
+
+
+h1{
+    color: white;
+    font-size: 400%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+
+
+}
+
+
+.logo{
+   padding-left: 45%;
+}
+
+
+
+
+
+
 }

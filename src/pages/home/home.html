@@ -1,14 +1,30 @@
-<ion-header>
-  <ion-navbar>
-    <ion-title>
-      Ionic Blank
-    </ion-title>
-  </ion-navbar>
-</ion-header>
 
-<ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+
+<ion-content class="img">
+
+  <br><br><br><br><br>
+
+  <h1>CodeTribe Academy</h1>
+
+ <img class="logo" src="../../assets/imgs/network (1).png">
+
+  <ion-list class="style">
+
+    <ion-item class="style2">
+      <ion-label fixed>Name :</ion-label>
+      <ion-input type="text" [(ngModel)]="Name"></ion-input>
+    </ion-item>
+
+    <br><br>
+  
+    <ion-item class="style2">
+      <ion-label fixed>Surname :</ion-label>
+      <ion-input type="text" [(ngModel)]="Surname"></ion-input>
+    </ion-item>
+  
+  </ion-list>
+
+  <button class="btn" ion-button round (click)=Start()>Start</button>
+
+
 </ion-content>
